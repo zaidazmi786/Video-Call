@@ -32,7 +32,7 @@ export default function VideoMeet() {
   let [video, setVideo] = useState(false);
   let [audio, setAudio] = useState();
   let [screen, setScreen] = useState();
-  let [showModal, setShowModel] = useState(true);
+  let [showModal, setShowModel] = useState(false);
   let [screenAvailable, setScreenAvailable] = useState();
   let [messages, setMessagse] = useState([]);
   let [message, setMessage] = useState("");
@@ -426,7 +426,7 @@ let getDisplayMediaSuccess = (stream) => {
             let tracks = localVidioRef.current.srcObject.getTracks()
             tracks.forEach(track => track.stop())
         } catch (e) { }
-        routeTo("/home")
+        routeTo("/")
     }
 
 
