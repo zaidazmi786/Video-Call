@@ -43,7 +43,7 @@ export default function Landing() {
 
         </div>
         <div className='image'>
-          <img src="public/images/mobile.png" alt="" />
+          <img src="/images/mobile.png" alt="" />
         </div>
       </div>
 
