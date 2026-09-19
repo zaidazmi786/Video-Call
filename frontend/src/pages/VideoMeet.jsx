@@ -453,6 +453,7 @@ let getDisplayMediaSuccess = (stream) => {
         <div>
           <h2 style={{color:"white"}}>Enter into Lobby</h2>
           <TextField
+          style={{color:"white"}}
             id="outlined-basic"
             label="Username"
             value={username}
