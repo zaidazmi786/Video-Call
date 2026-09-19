@@ -14,7 +14,7 @@ import ChatIcon from '@mui/icons-material/Chat'
 import { Route, useNavigate } from "react-router-dom";
 
 
-const server_url = "http://localhost:8080";
+const server_url = server;
 var Connections = {};
 const peerConfigConnections = {
   iceServers: [{ urls: "stun:stun.l.google.com:19302" }],
