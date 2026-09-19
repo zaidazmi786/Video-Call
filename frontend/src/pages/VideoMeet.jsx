@@ -459,6 +459,14 @@ let getDisplayMediaSuccess = (stream) => {
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             variant="outlined"
+             sx={{
+        '& .MuiInputLabel-root': {
+            color: 'white',           
+        },
+        '& .MuiInputLabel-root.Mui-focused': {
+            color: 'orange',           
+        },
+    }}
           />
           <Button variant="contained" onClick={getMedia}>
             Connect
