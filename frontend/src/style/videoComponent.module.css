@@ -24,9 +24,9 @@
     z-index: 15;
 }
 
-/* ===== Bottom toolbar — Zoom jaisa solid dark bar with labeled buttons ===== */
+
 .buttonContainers {
-    position: absolute;
+    position: fixed;
     width: 100%;
     bottom: 0;
     height: 80px;
