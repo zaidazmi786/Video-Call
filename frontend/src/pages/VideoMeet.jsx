@@ -451,7 +451,7 @@ let getDisplayMediaSuccess = (stream) => {
     <div>
       {askForUsername === true ? (
         <div>
-          <h2>Enter into Lobby</h2>
+          <h2 style={{color:"white"}}>Enter into Lobby</h2>
           <TextField
             id="outlined-basic"
             label="Username"
