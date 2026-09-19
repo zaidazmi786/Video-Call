@@ -8,9 +8,9 @@ export default function Landing() {
       <nav className='nav'>
         <div className='navHeader'><h2>Video Call</h2></div>
         <div className='navlist'>
-          <Link to="/auth" style={{ textDecoration: "none", color: "inherit" }}>
-            <p>Join as Guest</p>
-          </Link>
+          <Link to="/guest-room" style={{ textDecoration: "none", color: "inherit" }}>
+    <p>Join as Guest</p>
+</Link>
           <Link to="/auth" style={{ textDecoration: "none", color: "inherit" }}>
             <p>Register</p>
           </Link>
